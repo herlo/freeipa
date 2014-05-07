@@ -1,0 +1,288 @@
+{
+  "events": [
+    {
+      "act": "OPEN", 
+      "size": [
+        150, 
+        35
+      ], 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.3324239253997803
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]0;herlo@x220:~\u0007\u001b]7;file://x220.egavas.org/home/herlo\u0007", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0017139911651611328
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[?1034h[herlo@x220 ~]$ ", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "ssh-ad ", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u007f", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\b\u001b[K", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "d -L", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0051860809326171875
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDL/XmUfYOIWFbvW3feYmihOt8rpx9khExtLGAZ9g3YrzYLHDkarMy94ZnGeJTi1qbta2iKOuMtkT0KguHUAietytGadQdg+1yr+OWD0TiTcdmr3hq6A89YIbZgEswtPlvoqrRM/zQKSlDag7CFKzY1BKEQVrbsZKxpxRg71cM4pqKiQUmTrmKn2NkVsN4OHk60qs+0AirLo8aOp1NH310I7ah0+ERXw2IqQPg2dEx06aPP9KNFjltVicfeO/OtVKAhbV/XBJU3U3vw9hXjd/kYAXiS7LPyFGJr6OuPIbgG8hBbTE83JsIhkHuyDUfIi8Q+wFKEqoBw6L7OhVzAuUQSGK6Q5CH/Abwj/A10RAjTCMy/KT6TW9wxFqKPA44OKIm1VLlQW2Wsaxc2iuTx4VjUYkmzsxPVkCA7H3A+HVkLD5wzKQPBrUvayngBfrqE5ecihJ51QHtnAmiYj5AFdVGCZMluF66N44nYmFKnBS6xFAO9tApiibrEKUupYBL0luE= cardno:00050000158A\r\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDL/XmUfYOIWFbvW3feYmihOt8rpx9khExtLGAZ9g3YrzYLHDkarMy94ZnGeJTi1qbta2iKOuMtkT0KguHUAietytGadQdg+1yr+OWD0TiTcdmr3hq6A89YIbZgEswtPlvoqrRM/zQKSlDag7CFKzY1BKEQVrbsZKxpxRg71cM4pqKiQUmTrmKn2NkVsN4OHk60qs+0AirLo8aOp1NH310I7ah0+ERXw2IqQPg2dEx06aPP9KNFjltVicfeO/OtVKAhbV/XBJU3U3vw9hXjd/kYAXiS7LPyFGJr6OuPIbgG8hBbTE83JsIhkHuyDUfIi8Q+wFKEqoBw6L7OhVzAuUQSGK6Q5CH/Abwj/A10RAjTCMy/KT6TW9wxFqKPA44OKIm1VLlQW2Wsaxc2iuTx4VjUYkmzsxPVkCA7H3A+HVkLD5wzKQPBrUvayngBfrqE5ecihJ51QHtnAmiYj5AFdVGCZMluF66N44nYmFKnBS6xFAO9tApiibrEKUupYBL0luE= (none)\r\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsV53POTSjLWWDnLjgnEY2oa9wp5yR5JfFZug7VxkgCNMsbtXGxe4jGs1RxJk6CMzywCfsj8uWKsQKQMliqNzqgUGIEpjjT85hWnc1/LPZZeo4Rk11zOMpcppC84Tp82+AsQGKYQ3ma/HIiqbzZbvFnw2DjjBhrk179gBbllVfJxo3EELF+YF8rl96rjvbr0zu6tQfFu/eu+f5B6p+xWmi56ZUtLsTtVR6l0XwV1OCRoDZ7HnACbMMSGRlnxmCL0EdGdNyEoAhC4lMJUw06/H6Hr7o2qao79ZmUOZRxAx7MehPV7JFIluLQLzC1eeK7uSS+IzTBNa5f80pDtwZQ/6f5sG5+yK2bcUQ6o+cC27NurFVSw2X0ymyFYts1rXFBFU0Jdfx6h/L5eednV6+SO+8hBcLuE+v9nP4rVL6Ol7l1j2UjSG6uo8pp10KJBydwJokpBMGEUItNo33osUiaWVnx9mne0B7LBpO6VsGTUePvGi4qM4tCjGX4pOhtvwJETE= /home/clints/.ssh/herlo_rsa\r\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC5s48zKOWlNV6AWlITraneuEBy6x56j0WkISPjnhXf0aPzJ8H8s7alS4+J02JiBxaaFay5cM+qQKJMTGhT5Y8OYVTvGYydBDxG8cww1FBPkwcZGniPOv5L1uNRwQF3LSIGHWFnavNqjonuQAZogW5TBSMLcWwh7JH0ahAytDbrF86YWES4mYf458XfpfVurcDBcn6ACghLDT1URmi9bZioX4tfW2k4nb5t++jpdF596d6+Jdpl49+VUY9VOE863x5dW/TQVVaCGT1orEL9LOve4KNZbp6DcLezIDnOmuAvDflSaBnIiYWACcQ80RW+3omeiWbB5ez2PaPgs06vXlgO4Ki8qEGTU3/Rnl1gKqMLfrGfpWT7Tp/d9dr5bpusKXbEMZ/28ZlMubYSB1RoA5vpS6duZVFl2qGSoyDwnrvsOr7rKOyz7gX+FaJ46PaZ6gSGcpmPj+CkdLyHwIjYlhsaPa0XPRmqjOWPsHQ3/Mql7yU2wjl1bOr5K+/ZUhVmKPxJY0QN3idZCSE1iaLMUXyLx/6XLxO5KuI3kKmaj6Bn0TOLBgjkYD1uQ3RAZkhPs4pNWLBFjpVFkBY34AgeXxLgwWSq7ftZ/CHSVor7EDkmnsxg9qFvMIsh/WWlD6yD1qCJD5heDMAfVif3r+tm5Wj2pbbBsSs2vxmhc0lh0ieNhQ== /home/clints/.ssh/fedora_rsa\r\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDI2ucqaPJ9R/doMSeltxjgjH9GOeoEqDlbbZxqn2tJa6dCu4Yt9ZYxgzfahPkJKhgFiMTiBKiZUclTewaIdsHXOyk7sD4pX4iYi2rqy0zvWHW5zPiHb3iJX9gCSCU5jP/svfSrTKse2MBkSa/4bKGjOyBM0PQSKIUw6lLbYcIeC+TRpxrrSg4fZ4STMyeh6tBXa1g977rX/pp54Glou9LgBlEYVIphV4aXeJpPRxKR2KYFeJSMMBBJT6MhglxVUika982XcpR88zclrjTCOMzJbWgpfwuMPz33mfrTqtnfTVijBab5IJBlqEKt9yaCdrPNe3eiAgAdub7Cff7OGBwZPfsIHd9mZkuCtrBa2RqxK1SWfIXEUAIUWgwJA8uuIDmj2nQiqiDEu/2tVuu5lLLfHhYliNeel7D5iZZvPln3RUPpBfgpAlflsUouB02MdhJsPq30PuCfB/Wbc9eXqWC84tTMRa0RllqsOdhLQYri68gIwcSfWhZXYU1gfqR2ovwfUA3BlKeC6YlKxTz8/E4Jg895Ml7Up9c5SsKMqTqwrl/6KH4BxUL/tDntgXUeeWHgWIT7xGVujyCmX94D5RrSLP89DHW6pKPemIqhY1U8oOdX8/4bPZu/Z1PTLVDRiwtb1fBtU8LrPWYv17lB40Ca7gFv0x447Rdx3uIfj99yoQ== /home/clints/.ssh/goose_rsa\r\nssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA6TkjyPzeGvD0tZoM7klvhHuQdwZtiJnu09BfRuHwn3KgwZzOTooUUATWJ4sVMlIhRWiIcj0+sqbWem9sFussM+JP8l0mCLnyC6hrY36mj3pWI9txwSDcUXtRrLeTjzBE+9uL0akzF64Wg+KhcYBke8qG6xWl3GR/Ix7G5ITxHiJQZctL6Pd+K4BidoSOvZpzV4dHbOgdELAq+5fqL/8AOKnC1zV2STdJDHmMnkO/W+MaOKLXe8cj2VDOhDV8nM6QmPu22EOr0/8AlUjpYBNdgn/p6G5XA8j2BnDF/LeNtdknRCFeRGWjWmfR9QuS62S5KIAr/ceTynggtlMjm97JYw== /home/herlo/.ssh/lf_rsa\r\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+ascAw2CWAvCTs1XrD96Oj+8sKgaPbSQJ07cu2dpwaVnSasIf4vfxJpqbtmDnRxloXrjmT3gHjsZC8jr5MsvaSC+QBeqeQRsjRaCVEkTJPFBLGvKL+LBNlP+IL/T3oFtsme9V7nWV17Afwz6bLyyE4Wd1AmV9VNEqVKQO0gAxzhV+DXJIKdUtQk9hg0jx3QVMb1V0zBxL+Pl7HHUNzyWKDpjrpve8cqRF9Ch1dtcVSLH6TlsRRQZIHHLyrisejvtlpovMCwgikYEJJQ3C1dzZ7L0v1xFiOW3PVeUXNrVHQtXYSK5QVjdaXl2/4GlZSXkLoCWBEMye3prEyrbcCOZX /home/herlo/.ssh/prgmr_rsa\r\n\u001b]0;herlo@x220:~\u0007\u001b]7;file://x220.egavas.org/home/herlo\u0007[herlo@x220 ~]$ ", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\f", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[H\u001b[2J[herlo@x220 ~]$ ", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "ssh ipa.example.com", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03334403038024902
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "The authenticity of host 'ipa.example.com (10.100.72.1)' can't be established.\r\nRSA key fingerprint is 26:4a:39:15:a8:8a:80:3b:f2:1e:73:51:de:f4:aa:b5.\r\nAre you sure you want to continue connecting (yes/no)? ", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "yes", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0043561458587646484
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Warning: Permanently added 'ipa.example.com' (RSA) to the list of known hosts.\r\r\n", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.4054250717163086
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Last login: Tue May  6 23:56:52 2014 from 10.100.72.254\r\r\n", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03316497802734375
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]0;herlo@ipa:~\u0007\u001b[?1034h[herlo@ipa ~]$ ", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "ls -l", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.003031015396118164
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "total 0\r\n", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0004169940948486328
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]0;herlo@ipa:~\u0007[herlo@ipa ~]$ ", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "pwd", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n/home/herlo\r\n\u001b]0;herlo@ipa:~\u0007[herlo@ipa ~]$ ", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "ip a", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.01770806312561035
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "1: lo: <LOOPBACK,UP,LOWER_UP> mtu 16436 qdisc noqueue state UNKNOWN \r\n    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00\r\n    inet 127.0.0.1/8 scope host lo\r\n    inet6 ::1/128 scope host \r\n       valid_lft forever preferred_lft forever\r\n2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP qlen 1000\r\n    link/ether 52:54:00:18:1a:fd brd ff:ff:ff:ff:ff:ff\r\n    inet 10.100.72.1/24 brd 10.100.72.255 scope global eth0\r\n    inet6 fe80::5054:ff:fe18:1afd/64 scope link \r\n       valid_lft forever preferred_lft forever\r\n\u001b]0;herlo@ipa:~\u0007[herlo@ipa ~]$ ", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "hostname", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0023059844970703125
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "ipa.example.com\r\n\u001b]0;herlo@ipa:~\u0007[herlo@ipa ~]$ ", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u0004", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "logout\r\nConnection to ipa.example.com closed.\r\r\n", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.002418041229248047
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]0;herlo@x220:~\u0007\u001b]7;file://x220.egavas.org/home/herlo\u0007", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.003854990005493164
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "[herlo@x220 ~]$ ", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u0004", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "exit\r\n", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.001766204833984375
+    }, 
+    {
+      "act": "CLOSE", 
+      "term": "9530eb111deb4219859a08f544901966"
+    }
+  ], 
+  "shell": "/usr/bin/bash"
+}
