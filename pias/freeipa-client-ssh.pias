@@ -1,0 +1,2069 @@
+{
+  "events": [
+    {
+      "act": "OPEN", 
+      "size": [
+        150, 
+        35
+      ], 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.331010103225708
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]0;herlo@x220:~\u0007\u001b]7;file://x220.egavas.org/home/herlo\u0007", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0017540454864501953
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[?1034h[herlo@x220 ~]$ ", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "ssh ssh.example.com", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 4.03907299041748
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "ssh: Could not resolve hostname ssh.example.com: Name or service not known\r\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.002274036407470703
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]0;herlo@x220:~\u0007\u001b]7;file://x220.egavas.org/home/herlo\u0007", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.003576040267944336
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "[herlo@x220 ~]$ ", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "ssh 10.100.72.11", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03408002853393555
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "The authenticity of host '10.100.72.11 (10.100.72.11)' can't be established.\r\nECDSA key fingerprint is ce:22:fa:7b:9b:b0:27:ff:42:c2:28:b2:f4:bf:74:00.\r\nAre you sure you want to continue connecting (yes/no)? ", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "yes", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Warning: Permanently added '10.100.72.11' (ECDSA) to the list of known hosts.\r\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04716610908508301
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "herlo@10.100.72.11's password: ", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "h", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "e", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "r", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "l", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "o", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "r", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "u", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "l", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "e", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "s", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "!", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Permission denied, please try again.\r\r\nherlo@10.100.72.11's password: ", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u0003", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]0;herlo@x220:~\u0007\u001b]7;file://x220.egavas.org/home/herlo\u0007", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0008628368377685547
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "[herlo@x220 ~]$ ", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "ssh -", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u007f", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\b\u001b[K", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u007f", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\b\u001b[K", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "-add -L", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.004364967346191406
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDL/XmUfYOIWFbvW3feYmihOt8rpx9khExtLGAZ9g3YrzYLHDkarMy94ZnGeJTi1qbta2iKOuMtkT0KguHUAietytGadQdg+1yr+OWD0TiTcdmr3hq6A89YIbZgEswtPlvoqrRM/zQKSlDag7CFKzY1BKEQVrbsZKxpxRg71cM4pqKiQUmTrmKn2NkVsN4OHk60qs+0AirLo8aOp1NH310I7ah0+ERXw2IqQPg2dEx06aPP9KNFjltVicfeO/OtVKAhbV/XBJU3U3vw9hXjd/kYAXiS7LPyFGJr6OuPIbgG8hBbTE83JsIhkHuyDUfIi8Q+wFKEqoBw6L7OhVzAuUQSGK6Q5CH/Abwj/A10RAjTCMy/KT6TW9wxFqKPA44OKIm1VLlQW2Wsaxc2iuTx4VjUYkmzsxPVkCA7H3A+HVkLD5wzKQPBrUvayngBfrqE5ecihJ51QHtnAmiYj5AFdVGCZMluF66N44nYmFKnBS6xFAO9tApiibrEKUupYBL0luE= cardno:00050000158A\r\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDL/XmUfYOIWFbvW3feYmihOt8rpx9khExtLGAZ9g3YrzYLHDkarMy94ZnGeJTi1qbta2iKOuMtkT0KguHUAietytGadQdg+1yr+OWD0TiTcdmr3hq6A89YIbZgEswtPlvoqrRM/zQKSlDag7CFKzY1BKEQVrbsZKxpxRg71cM4pqKiQUmTrmKn2NkVsN4OHk60qs+0AirLo8aOp1NH310I7ah0+ERXw2IqQPg2dEx06aPP9KNFjltVicfeO/OtVKAhbV/XBJU3U3vw9hXjd/kYAXiS7LPyFGJr6OuPIbgG8hBbTE83JsIhkHuyDUfIi8Q+wFKEqoBw6L7OhVzAuUQSGK6Q5CH/Abwj/A10RAjTCMy/KT6TW9wxFqKPA44OKIm1VLlQW2Wsaxc2iuTx4VjUYkmzsxPVkCA7H3A+HVkLD5wzKQPBrUvayngBfrqE5ecihJ51QHtnAmiYj5AFdVGCZMluF66N44nYmFKnBS6xFAO9tApiibrEKUupYBL0luE= (none)\r\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsV53POTSjLWWDnLjgnEY2oa9wp5yR5JfFZug7VxkgCNMsbtXGxe4jGs1RxJk6CMzywCfsj8uWKsQKQMliqNzqgUGIEpjjT85hWnc1/LPZZeo4Rk11zOMpcppC84Tp82+AsQGKYQ3ma/HIiqbzZbvFnw2DjjBhrk179gBbllVfJxo3EELF+YF8rl96rjvbr0zu6tQfFu/eu+f5B6p+xWmi56ZUtLsTtVR6l0XwV1OCRoDZ7HnACbMMSGRlnxmCL0EdGdNyEoAhC4lMJUw06/H6Hr7o2qao79ZmUOZRxAx7MehPV7JFIluLQLzC1eeK7uSS+IzTBNa5f80pDtwZQ/6f5sG5+yK2bcUQ6o+cC27NurFVSw2X0ymyFYts1rXFBFU0Jdfx6h/L5eednV6+SO+8hBcLuE+v9nP4rVL6Ol7l1j2UjSG6uo8pp10KJBydwJokpBMGEUItNo33osUiaWVnx9mne0B7LBpO6VsGTUePvGi4qM4tCjGX4pOhtvwJETE= /home/clints/.ssh/herlo_rsa\r\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC5s48zKOWlNV6AWlITraneuEBy6x56j0WkISPjnhXf0aPzJ8H8s7alS4+J02JiBxaaFay5cM+qQKJMTGhT5Y8OYVTvGYydBDxG8cww1FBPkwcZGniPOv5L1uNRwQF3LSIGHWFnavNqjonuQAZogW5TBSMLcWwh7JH0ahAytDbrF86YWES4mYf458XfpfVurcDBcn6ACghLDT1URmi9bZioX4tfW2k4nb5t++jpdF596d6+Jdpl49+VUY9VOE863x5dW/TQVVaCGT1orEL9LOve4KNZbp6DcLezIDnOmuAvDflSaBnIiYWACcQ80RW+3omeiWbB5ez2PaPgs06vXlgO4Ki8qEGTU3/Rnl1gKqMLfrGfpWT7Tp/d9dr5bpusKXbEMZ/28ZlMubYSB1RoA5vpS6duZVFl2qGSoyDwnrvsOr7rKOyz7gX+FaJ46PaZ6gSGcpmPj+CkdLyHwIjYlhsaPa0XPRmqjOWPsHQ3/Mql7yU2wjl1bOr5K+/ZUhVmKPxJY0QN3idZCSE1iaLMUXyLx/6XLxO5KuI3kKmaj6Bn0TOLBgjkYD1uQ3RAZkhPs4pNWLBFjpVFkBY34AgeXxLgwWSq7ftZ/CHSVor7EDkmnsxg9qFvMIsh/WWlD6yD1qCJD5heDMAfVif3r+tm5Wj2pbbBsSs2vxmhc0lh0ieNhQ== /home/clints/.ssh/fedora_rsa\r\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDI2ucqaPJ9R/doMSeltxjgjH9GOeoEqDlbbZxqn2tJa6dCu4Yt9ZYxgzfahPkJKhgFiMTiBKiZUclTewaIdsHXOyk7sD4pX4iYi2rqy0zvWHW5zPiHb3iJX9gCSCU5jP/svfSrTKse2MBkSa/4bKGjOyBM0PQSKIUw6lLbYcIeC+TRpxrrSg4fZ4STMyeh6tBXa1g977rX/pp54Glou9LgBlEYVIphV4aXeJpPRxKR2KYFeJSMMBBJT6MhglxVUika982XcpR88zclrjTCOMzJbWgpfwuMPz33mfrTqtnfTVijBab5IJBlqEKt9yaCdrPNe3eiAgAdub7Cff7OGBwZPfsIHd9mZkuCtrBa2RqxK1SWfIXEUAIUWgwJA8uuIDmj2nQiqiDEu/2tVuu5lLLfHhYliNeel7D5iZZvPln3RUPpBfgpAlflsUouB02MdhJsPq30PuCfB/Wbc9eXqWC84tTMRa0RllqsOdhLQYri68gIwcSfWhZXYU1gfqR2ovwfUA3BlKeC6YlKxTz8/E4Jg895Ml7Up9c5SsKMqTqwrl/6KH4BxUL/tDntgXUeeWHgWIT7xGVujyCmX94D5RrSLP89DHW6pKPemIqhY1U8oOdX8/4bPZu/Z1PTLVDRiwtb1fBtU8LrPWYv17lB40Ca7gFv0x447Rdx3uIfj99yoQ== /home/clints/.ssh/goose_rsa\r\nssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA6TkjyPzeGvD0tZoM7klvhHuQdwZtiJnu09BfRuHwn3KgwZzOTooUUATWJ4sVMlIhRWiIcj0+sqbWem9sFussM+JP8l0mCLnyC6hrY36mj3pWI9txwSDcUXtRrLeTjzBE+9uL0akzF64Wg+KhcYBke8qG6xWl3GR/Ix7G5ITxHiJQZctL6Pd+K4BidoSOvZpzV4dHbOgdELAq+5fqL/8AOKnC1zV2STdJDHmMnkO/W+MaOKLXe8cj2VDOhDV8nM6QmPu22EOr0/8AlUjpYBNdgn/p6G5XA8j2BnDF/LeNtdknRCFeRGWjWmfR9QuS62S5KIAr/ceTynggtlMjm97JYw== /home/herlo/.ssh/lf_rsa\r\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+ascAw2CWAvCTs1XrD96Oj+8sKgaPbSQJ07cu2dpwaVnSasIf4vfxJpqbtmDnRxloXrjmT3gHjsZC8jr5MsvaSC+QBeqeQRsjRaCVEkTJPFBLGvKL+LBNlP+IL/T3oFtsme9V7nWV17Afwz6bLyyE4Wd1AmV9VNEqVKQO0gAxzhV+DXJIKdUtQk9hg0jx3QVMb1V0zBxL+Pl7HHUNzyWKDpjrpve8cqRF9Ch1dtcVSLH6TlsRRQZIHHLyrisejvtlpovMCwgikYEJJQ3C1dzZ7L0v1xFiOW3PVeUXNrVHQtXYSK5QVjdaXl2/4GlZSXkLoCWBEMye3prEyrbcCOZX /home/herlo/.ssh/prgmr_rsa\r\n\u001b]0;herlo@x220:~\u0007\u001b]7;file://x220.egavas.org/home/herlo\u0007[herlo@x220 ~]$ ", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u001b", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "[", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "A", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "ssh-add -L", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u001b", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "[", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "A", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\b\b\b\b\b\b\b 10.100.72.11", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u001b", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "[", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "1", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": ";", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "5", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "D", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\b\b", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u001b", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "[", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "1", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": ";", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "5", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "D", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\b\b\b", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u001b", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "[", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "1", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": ";", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "5", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "D", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\b\b\b\b", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u001b", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "[", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "1", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": ";", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "5", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "D", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\b\b\b", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "r", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "r10.100.72.11\b\b\b\b\b\b\b\b\b\b\b\b", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "o", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "o10.100.72.11\b\b\b\b\b\b\b\b\b\b\b\b", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "o", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "o10.100.72.11\b\b\b\b\b\b\b\b\b\b\b\b", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "t", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "t10.100.72.11\b\b\b\b\b\b\b\b\b\b\b\b", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "@", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "@10.100.72.11\b\b\b\b\b\b\b\b\b\b\b\b", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.07152795791625977
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "root@10.100.72.11's password: ", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "c", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u007f", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "f", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "e", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "d", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "o", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "r", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "a", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.11013197898864746
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Last login: Wed May  7 00:08:22 2014\r\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.016180992126464844
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]0;root@ssh:~\u0007\u001b[?1034h[root@ssh ~]# ", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "yum install freeipa-client -y", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.2015178203582764
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Resolving Dependencies", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0002701282501220703
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0006871223449707031
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Running transaction check", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0003008842468261719
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n---> Package freeipa-client.x86_64 0:3.3.5-1.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: freeipa-python = 3.3.5-1.fc20 for package: freeipa-client-3.3.5-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: xmlrpc-c >= 1.27.4 for package: freeipa-client-3.3.5-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: sssd >= 1.11.1 for package: freeipa-client-3.3.5-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: certmonger >= 0.65 for package: freeipa-client-3.3.5-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: wget for package: freeipa-client-3.3.5-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: python-ldap for package: freeipa-client-3.3.5-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: python-krbV for package: freeipa-client-3.3.5-1.fc20.x86_64\r\n--> Processing Dependency: python-dns for package: freeipa-client-3.3.5-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: pam_krb5 for package: freeipa-client-3.3.5-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: oddjob-mkhomedir for package: freeipa-client-3.3.5-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: ntp for package: freeipa-client-3.3.5-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: nfs-utils for package: freeipa-client-3.3.5-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: libsss_autofs for package: freeipa-client-3.3.5-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: libnfsidmap for package: freeipa-client-3.3.5-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: krb5-workstation for package: freeipa-client-3.3.5-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: cyrus-sasl-gssapi(x86-64) for package: freeipa-client-3.3.5-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: bind-utils for package: freeipa-client-3.3.5-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: autofs for package: freeipa-client-3.3.5-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: libxmlrpc_util.so.3()(64bit) for package: freeipa-client-3.3.5-1.fc20.x86_64\r\n--> Processing Dependency: libxmlrpc_client.so.3()(64bit) for package: freeipa-client-3.3.5-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: libxmlrpc.so.3()(64bit) for package: freeipa-client-3.3.5-1.fc20.x86_64\r\n--> Running transaction check\r\n---> Package autofs.x86_64 1:5.0.7-40.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: libtirpc.so.1()(64bit) for package: 1:autofs-5.0.7-40.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: libhesiod.so.0()(64bit) for package: 1:autofs-5.0.7-40.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "---> Package bind-utils.x86_64 32:9.9.4-12.P2.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: liblwres.so.90()(64bit) for package: 32:bind-utils-9.9.4-12.P2.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: libisccfg.so.90()(64bit) for package: 32:bind-utils-9.9.4-12.P2.fc20.x86_64\r\n--> Processing Dependency: libisccc.so.90()(64bit) for package: 32:bind-utils-9.9.4-12.P2.fc20.x86_64\r\n--> Processing Dependency: libisc.so.95()(64bit) for package: 32:bind-utils-9.9.4-12.P2.fc20.x86_64\r\n--> Processing Dependency: libdns.so.100()(64bit) for package: 32:bind-utils-9.9.4-12.P2.fc20.x86_64\r\n--> Processing Dependency: libbind9.so.90()(64bit) for package: 32:bind-utils-9.9.4-12.P2.fc20.x86_64\r\n---> Package certmonger.x86_64 0:0.70-1.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: libtevent.so.0(TEVENT_0.9.9)(64bit) for package: certmonger-0.70-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: libtalloc.so.2(TALLOC_2.0.2)(64bit) for package: certmonger-0.70-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: libtevent.so.0()(64bit) for package: certmonger-0.70-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: libtalloc.so.2()(64bit) for package: certmonger-0.70-1.fc20.x86_64\r\n---> Package cyrus-sasl-gssapi.x86_64 0:2.1.26-14.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "---> Package freeipa-python.x86_64 0:3.3.5-1.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: python-nss for package: freeipa-python-3.3.5-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: python-netaddr for package: freeipa-python-3.3.5-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: python-lxml for package: freeipa-python-3.3.5-1.fc20.x86_64", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: python-kerberos for package: freeipa-python-3.3.5-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: pyOpenSSL for package: freeipa-python-3.3.5-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: libipa_hbac-python for package: freeipa-python-3.3.5-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: keyutils for package: freeipa-python-3.3.5-1.fc20.x86_64", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: gnupg for package: freeipa-python-3.3.5-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "---> Package krb5-workstation.x86_64 0:1.11.5-5.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "---> Package libnfsidmap.x86_64 0:0.25-7.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "---> Package nfs-utils.x86_64 1:1.3.0-0.1.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: sssd-ldap = 1.11.5.1-1.fc20 for package: sssd-1.11.5.1-1.fc20.x86_64\r\n--> Processing Dependency: sssd-krb5 = 1.11.5.1-1.fc20 for package: sssd-1.11.5.1-1.fc20.x86_64\r\n--> Processing Dependency: sssd-ipa = 1.11.5.1-1.fc20 for package: sssd-1.11.5.1-1.fc20.x86_64\r\n--> Processing Dependency: sssd-common-pac = 1.11.5.1-1.fc20 for package: sssd-1.11.5.1-1.fc20.x86_64\r\n--> Processing Dependency: sssd-ad = 1.11.5.1-1.fc20 for package: sssd-1.11.5.1-1.fc20.x86_64\r\n--> Processing Dependency: python-sssdconfig = 1.11.5.1-1.fc20 for package: sssd-1.11.5.1-1.fc20.x86_64\r\n---> Package sssd-common.x86_64 0:1.11.5.1-1.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: sssd-client(x86-64) = 1.11.5.1-1.fc20 for package: sssd-common-1.11.5.1-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: libsss_idmap(x86-64) = 1.11.5.1-1.fc20 for package: sssd-common-1.11.5.1-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: libtdb(x86-64) >= 1.1.3 for package: sssd-common-1.11.5.1-1.fc20.x86_64\r\n--> Processing Dependency: libldb(x86-64) >= 1.1.16 for package: sssd-common-1.11.5.1-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: libini_config >= 1.0.0.1 for package: sssd-common-1.11.5.1-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: libtdb.so.1(TDB_1.2.1)(64bit) for package: sssd-common-1.11.5.1-1.fc20.x86_64\r\n--> Processing Dependency: libldb.so.1(LDB_0.9.10)(64bit) for package: sssd-common-1.11.5.1-1.fc20.x86_64\r\n--> Processing Dependency: libtdb.so.1()(64bit) for package: sssd-common-1.11.5.1-1.fc20.x86_64\r\n--> Processing Dependency: libsss_idmap.so.0()(64bit) for package: sssd-common-1.11.5.1-1.fc20.x86_64\r\n--> Processing Dependency: libldb.so.1()(64bit) for package: sssd-common-1.11.5.1-1.fc20.x86_64\r\n--> Processing Dependency: libini_config.so.3()(64bit) for package: sssd-common-1.11.5.1-1.fc20.x86_64\r\n--> Processing Dependency: libdhash.so.1()(64bit) for package: sssd-common-1.11.5.1-1.fc20.x86_64\r\n--> Processing Dependency: libcollection.so.2()(64bit) for package: sssd-common-1.11.5.1-1.fc20.x86_64\r\n--> Processing Dependency: libcares.so.2()(64bit) for package: sssd-common-1.11.5.1-1.fc20.x86_64\r\n---> Package wget.x86_64 0:1.14-12.fc20 will be installed\r\n---> Package xmlrpc-c.x86_64 0:1.32.5-1903.svn2451.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "---> Package xmlrpc-c-client.x86_64 0:1.32.5-1903.svn2451.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Running transaction check\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: libipa_hbac.so.0()(64bit) for package: libipa_hbac-python-1.11.5.1-1.fc20.x86_64\r\n---> Package libldb.x86_64 0:1.1.16-4.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "---> Package libsss_idmap.x86_64 0:1.11.5.1-1.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "---> Package libtalloc.x86_64 0:2.1.0-3.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "---> Package libtdb.x86_64 0:1.2.12-2.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "---> Package libtevent.x86_64 0:0.9.20-1.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "---> Package libtirpc.x86_64 0:0.2.4-1.0.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "---> Package ntpdate.x86_64 0:4.2.6p5-18.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "---> Package oddjob.x86_64 0:0.31.5-1.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "---> Package psmisc.x86_64 0:22.20-3.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "---> Package pyOpenSSL.x86_64 0:0.13.1-1.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "---> Package python-crypto.x86_64 0:2.6.1-1.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "---> Package python-kerberos.x86_64 0:1.1-14.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "---> Package python-lxml.x86_64 0:3.3.5-1.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: python-cssselect for package: python-lxml-3.3.5-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: libxslt.so.1(LIBXML2_1.1.9)(64bit) for package: python-lxml-3.3.5-1.fc20.x86_64\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: libxslt.so.1(LIBXML2_1.1.26)(64bit) for package: python-lxml-3.3.5-1.fc20.x86_64\r\n--> Processing Dependency: libxslt.so.1(LIBXML2_1.1.2)(64bit) for package: python-lxml-3.3.5-1.fc20.x86_64\r\n--> Processing Dependency: libxslt.so.1(LIBXML2_1.0.24)(64bit) for package: python-lxml-3.3.5-1.fc20.x86_64\r\n--> Processing Dependency: libxslt.so.1(LIBXML2_1.0.22)(64bit) for package: python-lxml-3.3.5-1.fc20.x86_64\r\n--> Processing Dependency: libxslt.so.1(LIBXML2_1.0.18)(64bit) for package: python-lxml-3.3.5-1.fc20.x86_64\r\n--> Processing Dependency: libxslt.so.1(LIBXML2_1.0.11)(64bit) for package: python-lxml-3.3.5-1.fc20.x86_64\r\n--> Processing Dependency: libxslt.so.1()(64bit) for package: python-lxml-3.3.5-1.fc20.x86_64\r\n--> Processing Dependency: libexslt.so.0()(64bit) for package: python-lxml-3.3.5-1.fc20.x86_64\r\n---> Package python-netaddr.noarch 0:0.7.5-7.fc20 will be installed\r\n---> Package python-nss.x86_64 0:0.14.0-2.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "---> Package python-sssdconfig.noarch 0:1.11.5.1-1.fc20 will be installed\r\n---> Package quota.x86_64 1:4.01-11.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Processing Dependency: libbsd.so.0(LIBBSD_0.0)(64bit) for package: 2:samba-libs-4.1.6-1.fc20.x86_64\r\n--> Processing Dependency: libwbclient.so.0()(64bit) for package: 2:samba-libs-4.1.6-1.fc20.x86_64\r\n--> Processing Dependency: libpytalloc-util.so.2()(64bit) for package: 2:samba-libs-4.1.6-1.fc20.x86_64\r\n--> Processing Dependency: libcups.so.2()(64bit) for package: 2:samba-libs-4.1.6-1.fc20.x86_64\r\n--> Processing Dependency: libbsd.so.0()(64bit) for package: 2:samba-libs-4.1.6-1.fc20.x86_64\r\n---> Package sssd-krb5-common.x86_64 0:1.11.5.1-1.fc20 will be installed\r\n---> Package tcp_wrappers.x86_64 0:7.6-76.fc20 will be installed\r\n--> Running transaction check\r\n---> Package cups-libs.x86_64 1:1.7.2-1.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "---> Package libbsd.x86_64 0:0.6.0-2.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "---> Package libusbx.x86_64 0:1.0.18-1.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "---> Package libwbclient.x86_64 2:4.1.6-1.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "---> Package pytalloc.x86_64 0:2.1.0-3.fc20 will be installed\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.18640398979187012
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "--> Finished Dependency Resolution\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.14965009689331055
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\nDependencies Resolved\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n======================================================================================================================================================\r\n Package                                 Arch                        Version                                       Repository                    Size\r\n======================================================================================================================================================\r\nInstalling:\r\n \u001b[1mfreeipa-client\u001b(B\u001b[m                          x86_64                      3.3.5-1.fc20                                  updates                      135 k\r\nInstalling for dependencies:\r\n \u001b[1mautofs\u001b(B\u001b[m                                  x86_64                      1:5.0.7-40.fc20                               updates                      524 k\r\n \u001b[1mautogen-libopts\u001b(B\u001b[m                         x86_64                      5.18-1.fc20                                   fedora                        65 k\r\n \u001b[1mbind-libs\u001b(B\u001b[m                               x86_64                      32:9.9.4-12.P2.fc20                           updates                      989 k\r\n \u001b[1mbind-utils\u001b(B\u001b[m                              x86_64                      32:9.9.4-12.P2.fc20                           updates                      356 k\r\n \u001b[1mc-ares\u001b(B\u001b[m                                  x86_64                      1.10.0-2.fc20                                 fedora                        78 k\r\n \u001b[1mcertmonger\u001b(B\u001b[m                              x86_64                      0.70-1.fc20                                   updates                      333 k\r\n \u001b[1mcups-libs\u001b(B\u001b[m                               x86_64                      1:1.7.2-1.fc20                                updates                      368 k\r\n \u001b[1mcyrus-sasl-gssapi\u001b(B\u001b[m                       x86_64                      2.1.26-14.fc20                                fedora                        40 k\r\n \u001b[1mfreeipa-python\u001b(B\u001b[m                          x86_64                      3.3.5-1.fc20                                  updates                      942 k\r\n \u001b[1mgnupg\u001b(B\u001b[m                                   x86_64                      1.4.16-2.fc20                                 updates                      1.3 M\r\n \u001b[1mhesiod\u001b(B\u001b[m                                  x86_64                      3.2.1-2.fc20                                  fedora                        29 k\r\n \u001b[1mkeyutils\u001b(B\u001b[m                                x86_64                      1.5.9-1.fc20                                  updates                       54 k\r\n \u001b[1mkrb5-workstation\u001b(B\u001b[m                        x86_64                      1.11.5-5.fc20                                 updates                      736 k\r\n \u001b[1mlibbasicobjects\u001b(B\u001b[m                         x86_64                      0.1.0-20.fc20                                 updates                       24 k\r\n \u001b[1mlibbsd\u001b(B\u001b[m                                  x86_64                      0.6.0-2.fc20                                  fedora                        65 k\r\n \u001b[1mlibcollection\u001b(B\u001b[m                           x86_64                      0.6.2-20.fc20                                 updates                       39 k\r\n \u001b[1mlibdhash\u001b(B\u001b[m                                x86_64                      0.4.3-20.fc20                                 updates                       27 k\r\n \u001b[1mlibevent\u001b(B\u001b[m                                x86_64                      2.0.21-3.fc20                                 fedora                       210 k\r\n \u001b[1mlibini_config\u001b(B\u001b[m                           x86_64                      1.0.0.1-20.fc20                               updates                       48 k\r\n \u001b[1mlibipa_hbac\u001b(B\u001b[m                             x86_64                      1.11.5.1-1.fc20                               updates                       61 k\r\n \u001b[1mlibipa_hbac-python\u001b(B\u001b[m                      x86_64                      1.11.5.1-1.fc20                               updates                       56 k\r\n \u001b[1mlibldb\u001b(B\u001b[m                                  x86_64                      1.1.16-4.fc20                                 updates                      126 k\r\n \u001b[1mlibnfsidmap\u001b(B\u001b[m                             x86_64                      0.25-7.fc20                                   fedora                        45 k\r\n \u001b[1mlibpath_utils\u001b(B\u001b[m                           x86_64                      0.2.1-20.fc20                                 updates                       26 k\r\n \u001b[1mlibref_array\u001b(B\u001b[m                            x86_64                      0.1.3-20.fc20                                 updates                       25 k\r\n \u001b[1mlibsss_idmap\u001b(B\u001b[m                            x86_64                      1.11.5.1-1.fc20                               updates                       66 k\r\n \u001b[1mlibsss_nss_idmap\u001b(B\u001b[m                        x86_64                      1.11.5.1-1.fc20                               updates                       65 k\r\n \u001b[1mlibtalloc\u001b(B\u001b[m                               x86_64                      2.1.0-3.fc20                                  updates                       25 k\r\n \u001b[1mlibtdb\u001b(B\u001b[m                                  x86_64                      1.2.12-2.fc20                                 fedora                        39 k\r\n \u001b[1mlibtevent\u001b(B\u001b[m                               x86_64                      0.9.20-1.fc20                                 updates                       30 k\r\n \u001b[1mlibtirpc\u001b(B\u001b[m                                x86_64                      0.2.4-1.0.fc20                                updates                       82 k\r\n \u001b[1mlibusb\u001b(B\u001b[m                                  x86_64                      1:0.1.5-3.fc20                                updates                       36 k\r\n \u001b[1mlibusbx\u001b(B\u001b[m                                 x86_64                      1.0.18-1.fc20                                 updates                       58 k\r\n \u001b[1mlibwbclient\u001b(B\u001b[m                             x86_64                      2:4.1.6-1.fc20                                updates                       81 k\r\n \u001b[1mlibxslt\u001b(B\u001b[m                                 x86_64                      1.1.28-5.fc20                                 fedora                       241 k\r\n \u001b[1mnfs-utils\u001b(B\u001b[m                               x86_64                      1:1.3.0-0.1.fc20                              updates                      359 k\r\n \u001b[1mntp\u001b(B\u001b[m                                     x86_64                      4.2.6p5-18.fc20                               updates                      549 k\r\n \u001b[1mntpdate\u001b(B\u001b[m                                 x86_64                      4.2.6p5-18.fc20                               updates                       83 k\r\n \u001b[1moddjob\u001b(B\u001b[m                                  x86_64                      0.31.5-1.fc20                                 fedora                        69 k\r\n \u001b[1moddjob-mkhomedir\u001b(B\u001b[m                        x86_64                      0.31.5-1.fc20                                 fedora                        38 k\r\n \u001b[1mpam_krb5\u001b(B\u001b[m                                x86_64                      2.4.8-1.fc20                                  fedora                       157 k\r\n \u001b[1mpsmisc\u001b(B\u001b[m                                  x86_64                      22.20-3.fc20                                  fedora                       139 k\r\n \u001b[1mpyOpenSSL\u001b(B\u001b[m                               x86_64                      0.13.1-1.fc20                                 fedora                       133 k\r\n \u001b[1mpytalloc\u001b(B\u001b[m                                x86_64                      2.1.0-3.fc20                                  updates                       13 k\r\n \u001b[1mpython-crypto\u001b(B\u001b[m                           x86_64                      2.6.1-1.fc20                                  fedora                       470 k\r\n \u001b[1mpython-cssselect\u001b(B\u001b[m                        noarch                      0.9.1-1.fc20                                  updates                       58 k\r\n \u001b[1mpython-dns\u001b(B\u001b[m                              noarch                      1.11.1-2.fc20                                 updates                      227 k\r\n \u001b[1mpython-kerberos\u001b(B\u001b[m                         x86_64                      1.1-14.fc20                                   updates                       24 k\r\n \u001b[1mpython-krbV\u001b(B\u001b[m                             x86_64                      1.0.90-7.fc20                                 fedora                        53 k\r\n \u001b[1mpython-ldap\u001b(B\u001b[m                             x86_64                      2.4.6-5.fc20                                  fedora                       152 k\r\n \u001b[1mpython-lxml\u001b(B\u001b[m                             x86_64                      3.3.5-1.fc20                                  updates                      792 k\r\n \u001b[1mpython-netaddr\u001b(B\u001b[m                          noarch                      0.7.5-7.fc20                                  fedora                       983 k\r\n \u001b[1mpython-nss\u001b(B\u001b[m                              x86_64                      0.14.0-2.fc20                                 fedora                       237 k\r\n \u001b[1mpython-sssdconfig\u001b(B\u001b[m                       noarch                      1.11.5.1-1.fc20                               updates                       86 k\r\n \u001b[1mquota\u001b(B\u001b[m                                   x86_64                      1:4.01-11.fc20                                updates                      177 k\r\n \u001b[1mquota-nls\u001b(B\u001b[m                               noarch                      1:4.01-11.fc20                                updates                       89 k\r\n \u001b[1mrpcbind\u001b(B\u001b[m                                 x86_64                      0.2.1-0.2.fc20                                updates                       56 k\r\n \u001b[1msamba-libs\u001b(B\u001b[m                              x86_64                      2:4.1.6-1.fc20                                updates                      4.2 M\r\n \u001b[1msssd\u001b(B\u001b[m                                    x86_64                      1.11.5.1-1.fc20                               updates                       55 k\r\n \u001b[1msssd-ad\u001b(B\u001b[m                                 x86_64                      1.11.5.1-1.fc20                               updates                      158 k\r\n \u001b[1msssd-client\u001b(B\u001b[m                             x86_64                      1.11.5.1-1.fc20                               updates                      111 k\r\n \u001b[1msssd-common\u001b(B\u001b[m                             x86_64                      1.11.5.1-1.fc20                               updates                      1.2 M\r\n \u001b[1msssd-common-pac\u001b(B\u001b[m                         x86_64                      1.11.5.1-1.fc20                               updates                      110 k\r\n \u001b[1msssd-ipa\u001b(B\u001b[m                                x86_64                      1.11.5.1-1.fc20                               updates                      262 k\r\n \u001b[1msssd-krb5\u001b(B\u001b[m                               x86_64                      1.11.5.1-1.fc20                               updates                       98 k\r\n \u001b[1msssd-krb5-common\u001b(B\u001b[m                        x86_64                      1.11.5.1-1.fc20                               updates                      191 k\r\n \u001b[1msssd-ldap\u001b(B\u001b[m                               x86_64                      1.11.5.1-1.fc20                               updates                      194 k\r\n \u001b[1msssd-proxy\u001b(B\u001b[m                              x86_64                      1.11.5.1-1.fc20                               updates                      105 k\r\n \u001b[1mtcp_wrappers\u001b(B\u001b[m                            x86_64                      7.6-76.fc20                                   fedora                        80 k\r\n \u001b[1mwget\u001b(B\u001b[m                                    x86_64                      1.14-12.fc20                                  updates                      544 k\r\n \u001b[1mxmlrpc-c\u001b(B\u001b[m                                x86_64                      1.32.5-1903.svn2451.fc20                      fedora                       128 k\r\n \u001b[1mxmlrpc-c-client\u001b(B\u001b[m                         x86_64                      1.32.5-1903.svn2451.fc20                      fedora                        32 k\r\n\r\nTransaction Summary\r\n======================================================================================================================================================\r\nInstall  1 Package (+72 Dependent packages)\r\n\r\nTotal size: 20 M\r\nInstalled size: 69 M\r\nDownloading packages:\r\nRunning transaction check\r\nRunning transaction test\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.10857105255126953
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Transaction test succeeded\r\nRunning transaction\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : libtalloc-2.1.0-3.fc20.x86_64 [                                                                                                ]  1/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : libtalloc-2.1.0-3.fc20.x86_64 [############################################################################################### ]  1/73\r  Installing : libtalloc-2.1.0-3.fc20.x86_64                                                                                                     1/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : libtevent-0.9.20-1.fc20.x86_64 [                                                                                               ]  2/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : libtevent-0.9.20-1.fc20.x86_64 [############################################################################################## ]  2/73\r  Installing : libtevent-0.9.20-1.fc20.x86_64                                                                                                    2/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : libdhash-0.4.3-20.fc20.x86_64 [                                                                                                ]  3/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : libdhash-0.4.3-20.fc20.x86_64 [########################                                                                        ]  3/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : libdhash-0.4.3-20.fc20.x86_64 [##################################################################################              ]  3/73\r  Installing : libdhash-0.4.3-20.fc20.x86_64 [############################################################################################### ]  3/73\r  Installing : libdhash-0.4.3-20.fc20.x86_64                                                                                                     3/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [#############                                                                           ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [##############                                                                          ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [###############                                                                         ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [################                                                                        ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [##################                                                                      ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [###################                                                                     ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [####################                                                                    ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [#####################                                                                   ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [######################                                                                  ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [#######################                                                                 ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [########################                                                                ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [#########################                                                               ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [##########################                                                              ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [###########################                                                             ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [############################                                                            ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [#############################                                                           ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [##############################                                                          ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [################################                                                        ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [#################################                                                       ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [####################################                                                    ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [#####################################                                                   ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [######################################                                                  ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [#######################################                                                 ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [########################################                                                ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [##########################################                                              ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [###########################################                                             ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [############################################                                            ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [#############################################                                           ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [##############################################                                          ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [###############################################                                         ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [################################################                                        ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [#################################################                                       ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [##################################################                                      ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [###################################################                                     ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [#####################################################                                   ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [######################################################                                  ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [#######################################################                                 ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [########################################################                                ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [#########################################################                               ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [##########################################################                              ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [###########################################################                             ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [############################################################                            ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [#############################################################                           ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [##############################################################                          ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [#################################################################                       ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [##################################################################                      ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [###################################################################                     ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [####################################################################                    ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [#####################################################################                   ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [######################################################################                  ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [########################################################################                ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [#########################################################################               ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [###########################################################################             ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [#############################################################################           ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [###############################################################################         ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [################################################################################        ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [#################################################################################       ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [##################################################################################      ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [###################################################################################     ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [####################################################################################    ] 25/73\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [#####################################################################################   ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [######################################################################################  ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64 [####################################################################################### ] 25/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : krb5-workstation-1.11.5-5.fc20.x86_64                                                                                            25/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : libbasicobjects-0.1.0-20.fc20.x86_64 [                                                                                         ] 26/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : libbasicobjects-0.1.0-20.fc20.x86_64 [#################                                                                        ] 26/73\r  Installing : libbasicobjects-0.1.0-20.fc20.x86_64 [###########################################################################              ] 26/73\r  Installing : libbasicobjects-0.1.0-20.fc20.x86_64 [######################################################################################## ] 26/73\r  Installing : libbasicobjects-0.1.0-20.fc20.x86_64                                                                                             26/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : 32:bind-libs-9.9.4-12.P2.fc20.x86_64 [                                                                                         ] 27/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : 32:bind-libs-9.9.4-12.P2.fc20.x86_64 [#                                                                                        ] 27/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : 32:bind-libs-9.9.4-12.P2.fc20.x86_64 [######################################################################################## ] 27/73\r  Installing : 32:bind-libs-9.9.4-12.P2.fc20.x86_64                                                                                             27/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "write", 
+      "data": "\r  installing : ntpdate-4.2.6p5-18.fc20.x86_64 [#####################################################################################          ] 53/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "write", 
+      "data": "\r  installing : ntpdate-4.2.6p5-18.fc20.x86_64 [############################################################################################   ] 53/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "write", 
+      "data": "\r  installing : ntpdate-4.2.6p5-18.fc20.x86_64 [############################################################################################## ] 53/73\r  installing : ntpdate-4.2.6p5-18.fc20.x86_64                                                                                                   53/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "write", 
+      "data": "\r  installing : ntp-4.2.6p5-18.fc20.x86_64 [                                                                                                   ] 54/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "write", 
+      "data": "\r  installing : ntp-4.2.6p5-18.fc20.x86_64                                                                                                       54/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "write", 
+      "data": "\r  installing : pyopenssl-0.13.1-1.fc20.x86_64 [                                                                                               ] 55/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "write", 
+      "data": "\r  installing : pyopenssl-0.13.1-1.fc20.x86_64 [#########                                                                                      ] 55/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "write", 
+      "data": "\r  installing : pyopenssl-0.13.1-1.fc20.x86_64 [###################                                                                            ] 55/73\r  installing : pyopenssl-0.13.1-1.fc20.x86_64 [########################                                                                       ] 55/73\r  installing : pyopenssl-0.13.1-1.fc20.x86_64 [##########################                                                                     ] 55/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "pause", 
+      "duration": 0.0017788410186767578
+    }, 
+    {
+      "act": "write", 
+      "data": "\r  installing : pyopenssl-0.13.1-1.fc20.x86_64 [#####################################                                                          ] 55/73\r  installing : pyopenssl-0.13.1-1.fc20.x86_64 [##########################################                                                     ] 55/73\r  installing : pyopenssl-0.13.1-1.fc20.x86_64 [###########################################                                                    ] 55/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : sssd-krb5-1.11.5.1-1.fc20.x86_64 [                                                                                             ] 70/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : sssd-krb5-1.11.5.1-1.fc20.x86_64 [############################################                                                 ] 70/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : sssd-krb5-1.11.5.1-1.fc20.x86_64 [########################################################################                     ] 70/73\r  Installing : sssd-krb5-1.11.5.1-1.fc20.x86_64 [#############################################################################                ] 70/73\r  Installing : sssd-krb5-1.11.5.1-1.fc20.x86_64 [##################################################################################           ] 70/73\r  Installing : sssd-krb5-1.11.5.1-1.fc20.x86_64 [######################################################################################       ] 70/73\r  Installing : sssd-krb5-1.11.5.1-1.fc20.x86_64 [############################################################################################ ] 70/73\r  Installing : sssd-krb5-1.11.5.1-1.fc20.x86_64                                                                                                 70/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : sssd-proxy-1.11.5.1-1.fc20.x86_64 [                                                                                            ] 71/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : sssd-proxy-1.11.5.1-1.fc20.x86_64 [###############################                                                             ] 71/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : sssd-proxy-1.11.5.1-1.fc20.x86_64 [#########################################################                                   ] 71/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : sssd-proxy-1.11.5.1-1.fc20.x86_64 [##########################################################################                  ] 71/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : sssd-proxy-1.11.5.1-1.fc20.x86_64 [########################################################################################### ] 71/73\r  Installing : sssd-proxy-1.11.5.1-1.fc20.x86_64                                                                                                71/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : sssd-1.11.5.1-1.fc20.x86_64 [                                                                                                  ] 72/73\r  Installing : sssd-1.11.5.1-1.fc20.x86_64 [################################################################################################# ] 72/73\r  Installing : sssd-1.11.5.1-1.fc20.x86_64                                                                                                      72/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : freeipa-client-3.3.5-1.fc20.x86_64 [                                                                                           ] 73/73", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Installing : freeipa-client-3.3.5-1.fc20.x86_64 [####                                                                                       ] 73/73\r  Installing : freeipa-client-3.3.5-1.fc20.x86_64 [##########                                                                                 ] 73/73\r  Installing : freeipa-client-3.3.5-1.fc20.x86_64 [###########                                                                                ] 73/73\r  Installing : freeipa-client-3.3.5-1.fc20.x86_64 [################                                                                           ] 73/73\r  Installing : freeipa-client-3.3.5-1.fc20.x86_64 [#################################                                                          ] 73/73\r  Installing : freeipa-client-3.3.5-1.fc20.x86_64 [############################################                                               ] 73/73\r  Installing : freeipa-client-3.3.5-1.fc20.x86_64 [####################################################                                       ] 73/73\r  Installing : freeipa-client-3.3.5-1.fc20.x86_64 [#############################################################                              ] 73/73\r  Installing : freeipa-client-3.3.5-1.fc20.x86_64 [#################################################################                          ] 73/73\r  Installing : freeipa-client-3.3.5-1.fc20.x86_64 [###########################################################################                ] 73/73\r  Installing : freeipa-client-3.3.5-1.fc20.x86_64 [############################################################################               ] 73/73\r  Installing : freeipa-client-3.3.5-1.fc20.x86_64 [#############################################################################              ] 73/73\r  Installing : freeipa-client-3.3.5-1.fc20.x86_64 [##############################################################################             ] 73/73\r  Installing : freeipa-client-3.3.5-1.fc20.x86_64 [###############################################################################            ] 73/73\r  Installing : freeipa-client-3.3.5-1.fc20.x86_64 [################################################################################           ] 73/73\r  Installing : freeipa-client-3.3.5-1.fc20.x86_64 [#################################################################################          ] 73/73\r  Installing : freeipa-client-3.3.5-1.fc20.x86_64 [####################################################################################       ] 73/73\r  Installing : freeipa-client-3.3.5-1.fc20.x86_64 [#####################################################################################      ] 73/73\r  Installing : freeipa-client-3.3.5-1.fc20.x86_64 [########################################################################################   ] 73/73\r  Installing : freeipa-client-3.3.5-1.fc20.x86_64 [########################################################################################## ] 73/73\r  Installing : freeipa-client-3.3.5-1.fc20.x86_64                                                                                               73/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.056619882583618164
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : ntp-4.2.6p5-18.fc20.x86_64                                                                                                        1/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : gnupg-1.4.16-2.fc20.x86_64                                                                                                        2/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : libsss_idmap-1.11.5.1-1.fc20.x86_64                                                                                               3/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : sssd-ldap-1.11.5.1-1.fc20.x86_64                                                                                                  4/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : 32:bind-utils-9.9.4-12.P2.fc20.x86_64                                                                                             5/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : sssd-krb5-common-1.11.5.1-1.fc20.x86_64                                                                                           6/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : libtalloc-2.1.0-3.fc20.x86_64                                                                                                     7/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : oddjob-0.31.5-1.fc20.x86_64                                                                                                       8/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : libpath_utils-0.2.1-20.fc20.x86_64                                                                                                9/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : rpcbind-0.2.1-0.2.fc20.x86_64                                                                                                    10/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : 1:quota-4.01-11.fc20.x86_64                                                                                                      11/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : libsss_nss_idmap-1.11.5.1-1.fc20.x86_64                                                                                          12/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : python-nss-0.14.0-2.fc20.x86_64                                                                                                  13/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : libxslt-1.1.28-5.fc20.x86_64                                                                                                     14/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : xmlrpc-c-client-1.32.5-1903.svn2451.fc20.x86_64                                                                                  15/73 ", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : pyOpenSSL-0.13.1-1.fc20.x86_64                                                                                                   16/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : python-lxml-3.3.5-1.fc20.x86_64                                                                                                  17/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : libtevent-0.9.20-1.fc20.x86_64                                                                                                   18/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : libnfsidmap-0.25-7.fc20.x86_64                                                                                                   56/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : libini_config-1.0.0.1-20.fc20.x86_64                                                                                             57/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : sssd-client-1.11.5.1-1.fc20.x86_64                                                                                               58/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : freeipa-python-3.3.5-1.fc20.x86_64                                                                                               59/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : c-ares-1.10.0-2.fc20.x86_64                                                                                                      60/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : cyrus-sasl-gssapi-2.1.26-14.fc20.x86_64                                                                                          61/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : 32:bind-libs-9.9.4-12.P2.fc20.x86_64                                                                                             62/73 \r\n\r  Verifying  : python-dns-1.11.1-2.fc20.noarch                                                                                                  63/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : libbasicobjects-0.1.0-20.fc20.x86_64                                                                                             64/73 \r\n\r  Verifying  : pytalloc-2.1.0-3.fc20.x86_64                                                                                                     65/73 \r\n\r  Verifying  : krb5-workstation-1.11.5-5.fc20.x86_64                                                                                            66/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : xmlrpc-c-1.32.5-1903.svn2451.fc20.x86_64                                                                                         67/73 \r\n\r  Verifying  : python-kerberos-1.1-14.fc20.x86_64                                                                                               68/73 \r\n\r  Verifying  : sssd-krb5-1.11.5.1-1.fc20.x86_64                                                                                                 69/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : libipa_hbac-1.11.5.1-1.fc20.x86_64                                                                                               70/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : oddjob-mkhomedir-0.31.5-1.fc20.x86_64                                                                                            71/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : sssd-ipa-1.11.5.1-1.fc20.x86_64                                                                                                  72/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r  Verifying  : sssd-common-pac-1.11.5.1-1.fc20.x86_64                                                                                           73/73 \r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\nInstalled:\r\n  freeipa-client.x86_64 0:3.3.5-1.fc20                                                                                                                \r\n\r\nDependency Installed:\r\n  autofs.x86_64 1:5.0.7-40.fc20                autogen-libopts.x86_64 0:5.18-1.fc20            bind-libs.x86_64 32:9.9.4-12.P2.fc20                  \r\n  bind-utils.x86_64 32:9.9.4-12.P2.fc20        c-ares.x86_64 0:1.10.0-2.fc20                   certmonger.x86_64 0:0.70-1.fc20                       \r\n  cups-libs.x86_64 1:1.7.2-1.fc20              cyrus-sasl-gssapi.x86_64 0:2.1.26-14.fc20       freeipa-python.x86_64 0:3.3.5-1.fc20                  \r\n  gnupg.x86_64 0:1.4.16-2.fc20                 hesiod.x86_64 0:3.2.1-2.fc20                    keyutils.x86_64 0:1.5.9-1.fc20                        \r\n  krb5-workstation.x86_64 0:1.11.5-5.fc20      libbasicobjects.x86_64 0:0.1.0-20.fc20          libbsd.x86_64 0:0.6.0-2.fc20                          \r\n  libcollection.x86_64 0:0.6.2-20.fc20         libdhash.x86_64 0:0.4.3-20.fc20                 libevent.x86_64 0:2.0.21-3.fc20                       \r\n  libini_config.x86_64 0:1.0.0.1-20.fc20       libipa_hbac.x86_64 0:1.11.5.1-1.fc20            libipa_hbac-python.x86_64 0:1.11.5.1-1.fc20           \r\n  libldb.x86_64 0:1.1.16-4.fc20                libnfsidmap.x86_64 0:0.25-7.fc20                libpath_utils.x86_64 0:0.2.1-20.fc20                  \r\n  libref_array.x86_64 0:0.1.3-20.fc20          libsss_idmap.x86_64 0:1.11.5.1-1.fc20           libsss_nss_idmap.x86_64 0:1.11.5.1-1.fc20             \r\n  libtalloc.x86_64 0:2.1.0-3.fc20              libtdb.x86_64 0:1.2.12-2.fc20                   libtevent.x86_64 0:0.9.20-1.fc20                      \r\n  libtirpc.x86_64 0:0.2.4-1.0.fc20             libusb.x86_64 1:0.1.5-3.fc20                    libusbx.x86_64 0:1.0.18-1.fc20                        \r\n  libwbclient.x86_64 2:4.1.6-1.fc20            libxslt.x86_64 0:1.1.28-5.fc20                  nfs-utils.x86_64 1:1.3.0-0.1.fc20                     \r\n  ntp.x86_64 0:4.2.6p5-18.fc20                 ntpdate.x86_64 0:4.2.6p5-18.fc20                oddjob.x86_64 0:0.31.5-1.fc20                         \r\n  oddjob-mkhomedir.x86_64 0:0.31.5-1.fc20      pam_krb5.x86_64 0:2.4.8-1.fc20                  psmisc.x86_64 0:22.20-3.fc20                          \r\n  pyOpenSSL.x86_64 0:0.13.1-1.fc20             pytalloc.x86_64 0:2.1.0-3.fc20                  python-crypto.x86_64 0:2.6.1-1.fc20                   \r\n  python-cssselect.noarch 0:0.9.1-1.fc20       python-dns.noarch 0:1.11.1-2.fc20               python-kerberos.x86_64 0:1.1-14.fc20                  \r\n  python-krbV.x86_64 0:1.0.90-7.fc20           python-ldap.x86_64 0:2.4.6-5.fc20               python-lxml.x86_64 0:3.3.5-1.fc20                     \r\n  python-netaddr.noarch 0:0.7.5-7.fc20         python-nss.x86_64 0:0.14.0-2.fc20               python-sssdconfig.noarch 0:1.11.5.1-1.fc20            \r\n  quota.x86_64 1:4.01-11.fc20                  quota-nls.noarch 1:4.01-11.fc20                 rpcbind.x86_64 0:0.2.1-0.2.fc20                       \r\n  samba-libs.x86_64 2:4.1.6-1.fc20             sssd.x86_64 0:1.11.5.1-1.fc20                   sssd-ad.x86_64 0:1.11.5.1-1.fc20                      \r\n  sssd-client.x86_64 0:1.11.5.1-1.fc20         sssd-common.x86_64 0:1.11.5.1-1.fc20            sssd-common-pac.x86_64 0:1.11.5.1-1.fc20              \r\n  sssd-ipa.x86_64 0:1.11.5.1-1.fc20            sssd-krb5.x86_64 0:1.11.5.1-1.fc20              sssd-krb5-common.x86_64 0:1.11.5.1-1.fc20             \r\n  sssd-ldap.x86_64 0:1.11.5.1-1.fc20           sssd-proxy.x86_64 0:1.11.5.1-1.fc20             tcp_wrappers.x86_64 0:7.6-76.fc20                     \r\n  wget.x86_64 0:1.14-12.fc20                   xmlrpc-c.x86_64 0:1.32.5-1903.svn2451.fc20      xmlrpc-c-client.x86_64 0:1.32.5-1903.svn2451.fc20     \r\n\r\nComplete!\r\n\u001b]0;root@ssh:~\u0007[root@ssh ~]# ", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u001b", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "[", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "C", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u0007", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "ipa-client-install --enable-dns-updates --mkhomedir", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.24011993408203125
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Discovery was successful!\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.008148193359375e-05
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Hostname: ssh.example.com\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Realm: EXAMPLE.COM\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.00012302398681640625
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "DNS Domain: example.com\r\nIPA Server: ipa.example.com\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.393692016601562e-05
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "BaseDN: dc=example,dc=com\r\n\r\nContinue to configure the system with these values? [no]: ", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "yes", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "User authorized to enroll computers: ", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "admin", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0006198883056640625
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Synchronizing time with KDC...\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 2.129993915557861
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Password for admin@EXAMPLE.COM: ", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "i", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "p", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "a", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "a", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "d", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "m", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "i", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "7", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "2", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.17183399200439453
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Successfully retrieved CA cert\r\n    Subject:     CN=Certificate Authority,O=EXAMPLE.COM\r\n    Issuer:      CN=Certificate Authority,O=EXAMPLE.COM\r\n    Valid From:  Wed May 07 04:46:28 2014 UTC\r\n    Valid Until: Sun May 07 04:46:28 2034 UTC\r\n\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.3534078598022461
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Enrolled in IPA realm EXAMPLE.COM\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Created /etc/ipa/default.conf", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "New SSSD config will be created\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Configured /etc/sssd/sssd.conf\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Added the CA to the systemwide CA trust database.\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Added the CA to the default NSS database.\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Configured /etc/krb5.conf for IPA realm EXAMPLE.COM\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "trying https://ipa.example.com/ipa/xml\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Forwarding 'ping' to server 'https://ipa.example.com/ipa/xml'\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Forwarding 'env' to server 'https://ipa.example.com/ipa/xml'\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Hostname (ssh.example.com) not found in DNS\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "DNS server record set to: ssh.example.com -> 10.100.72.11\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Adding SSH public key from /etc/ssh/ssh_host_rsa_key.pub", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Adding SSH public key from /etc/ssh/ssh_host_ecdsa_key.pub\r\nForwarding 'host_mod' to server 'https://ipa.example.com/ipa/xml'\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "SSSD enabled\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Configured /etc/openldap/ldap.conf\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "NTP enabled\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Configured /etc/ssh/ssh_config\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Configured /etc/ssh/sshd_config\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Client configuration complete.\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]0;root@ssh:~\u0007[root@ssh ~]# ", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "service sssd restart", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Redirecting to /bin/systemctl restart  sssd.service\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.08919596672058105
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]0;root@ssh:~\u0007[root@ssh ~]# ", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u0004", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "logout\r\nConnection to 10.100.72.11 closed.\r\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.001898050308227539
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]0;herlo@x220:~\u0007\u001b]7;file://x220.egavas.org/home/herlo\u0007", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0030040740966796875
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "[herlo@x220 ~]$ ", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "ssh ssh.example.com", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.022828102111816406
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "The authenticity of host 'ssh.example.com (10.100.72.11)' can't be established.\r\nECDSA key fingerprint is ce:22:fa:7b:9b:b0:27:ff:42:c2:28:b2:f4:bf:74:00.\r\nAre you sure you want to continue connecting (yes/no)? ", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "yes", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.001728057861328125
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Warning: Permanently added 'ssh.example.com' (ECDSA) to the list of known hosts.\r\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.3132960796356201
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Creating home directory for herlo.\r\nLast failed login: Wed May  7 00:12:01 MDT 2014 from 10.100.72.254 on ssh:notty\r\nThere were 2 failed login attempts since the last successful login.\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.02884387969970703
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]0;herlo@ssh:~\u0007\u001b[?1034h[herlo@ssh ~]$ ", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "id", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0011260509490966797
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "uid=66400001(herlo) gid=66400001(herlo) groups=66400001(herlo) context=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023\r\n\u001b]0;herlo@ssh:~\u0007[herlo@ssh ~]$ ", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "pwd", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n/home/herlo\r\n\u001b]0;herlo@ssh:~\u0007[herlo@ssh ~]$ ", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "hostname", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\nssh.example.com\r\n\u001b]0;herlo@ssh:~\u0007[herlo@ssh ~]$ ", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u0004", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "logout\r\nConnection to ssh.example.com closed.\r\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0019562244415283203
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]0;herlo@x220:~\u0007\u001b]7;file://x220.egavas.org/home/herlo\u0007", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "[herlo@x220 ~]$ ", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u0004", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "exit\r\n", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }, 
+    {
+      "act": "CLOSE", 
+      "term": "4c94b11d2064485e88f349137c5a8412"
+    }
+  ], 
+  "shell": "/usr/bin/bash"
+}
