@@ -1,0 +1,297 @@
+{
+  "events": [
+    {
+      "act": "OPEN", 
+      "size": [
+        150, 
+        35
+      ], 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.33275508880615234
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]0;herlo@x220:~/Projects/presentation/freeipa\u0007\u001b]7;file://x220.egavas.org/home/herlo/Projects/presentation/freeipa\u0007", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.001974821090698242
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[?1034h[herlo@x220 (master) freeipa]$ ", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "ssh ipa.example.com", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.9326069355010986
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]0;herlo@ipa:~\u0007\u001b[?1034h[herlo@ipa ~]$ ", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "su -", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03573107719421387
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Password: ", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "READ", 
+      "data": "f", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "READ", 
+      "data": "e", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u007f", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u007f", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "READ", 
+      "data": "c", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "READ", 
+      "data": "e", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "READ", 
+      "data": "n", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "READ", 
+      "data": "t", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "READ", 
+      "data": "o", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "READ", 
+      "data": "s", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.054598093032836914
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]0;root@ipa:~\u0007", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 9.107589721679688e-05
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[?1034h[root@ipa ~]# ", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "ipa sudorule-add ALL --hostcat='all' --cmdcat='all' --runasusercat='all' --runasgroupcat='all'", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.4241220951080322
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[?1034h---------------------\r\nAdded Sudo Rule \"ALL\"\r\n---------------------\r\n", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0007801055908203125
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "  Rule name: ALL\r\n  Enabled: TRUE\r\n  Host category: all\r\n  Command category: all\r\n  RunAs User category: all\r\n  RunAs Group category: all\r\n", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.021931171417236328
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]0;root@ipa:~\u0007[root@ipa ~]# ", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "ipa sudorule-add-user --user herlo ALL", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.403033971786499
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[?1034h  Rule name: ALL\r\n  Enabled: TRUE\r\n  Host category: all\r\n  Command category: all\r\n  RunAs User category: all\r\n  RunAs Group category: all\r\n  Users: herlo\r\n-------------------------\r\nNumber of members added 1\r\n-------------------------\r\n", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.021445035934448242
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]0;root@ipa:~\u0007[root@ipa ~]# ", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u0004", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "logout\r\n\u001b]0;herlo@ipa:~\u0007[herlo@ipa ~]$ ", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u0004", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "logout\r\n", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0021371841430664062
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Connection to ipa.example.com closed.\r\r\n", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.003136157989501953
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]0;herlo@x220:~/Projects/presentation/freeipa\u0007\u001b]7;file://x220.egavas.org/home/herlo/Projects/presentation/freeipa\u0007", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.013509988784790039
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "[herlo@x220 (master) freeipa]$ ", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u0004", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "exit\r\n", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.004063129425048828
+    }, 
+    {
+      "act": "CLOSE", 
+      "term": "c5d3b5be076d4d2ba64459306d2ff13f"
+    }
+  ], 
+  "shell": "/usr/bin/bash"
+}
