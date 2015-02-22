@@ -1,0 +1,81 @@
+freeIPA presentatION
+
+Server Install (centos 6.x/7.x)
+
+• ssh -o PubkeyAuthentication=no -o PasswordAuthentication=yes  root@192.168.122.100
+• yum install ipa-server bind-dyndb-ldap -y
+• ipa-server-install --setup-dns
+∘ Directory Manager password: manager72
+∘ IPA admin password: ipaadmin72
+∘ DNS
+‣ forwarders: yes
+• 209.244.0.3 && 8.8.8.8
+‣ Reverse zone: yes
+• 72.100.10.in-addr.arpa
+• authconfig --enablemkhomedir --update
+• chkconfig sssd on
+• init 6
+
+CentOS 6.x
+
+iptables -I INPUT 4 -p tcp --dport 80 -s 192.168.122.0/24 -j ACCEPT
+iptables -I INPUT 4 -p tcp --dport 443 -s 192.168.122.0/24 -j ACCEPT
+iptables -I INPUT 4 -p tcp --dport 389 -s 192.168.122.0/24 -j ACCEPT
+iptables -I INPUT 4 -p tcp --dport 636 -s 192.168.122.0/24 -j ACCEPT
+iptables -I INPUT 4 -p tcp --dport 88 -s 192.168.122.0/24 -j ACCEPT
+iptables -I INPUT 4 -p tcp --dport 464 -s 192.168.122.0/24 -j ACCEPT
+iptables -I INPUT 4 -p tcp --dport 53 -s 192.168.122.0/24 -j ACCEPT
+iptables -I INPUT 4 -p udp --dport 53 -s 192.168.122.0/24 -j ACCEPT
+iptables -I INPUT 4 -p udp --dport 123 -s 192.168.122.0/24 -j ACCEPT
+iptables -I INPUT 4 -p udp --dport 88 -s 192.168.122.0/24 -j ACCEPT
+iptables -I INPUT 4 -p udp --dport 464 -s 192.168.122.0/24 -j ACCEPT
+service iptables save
+
+CentOS 7.x
+
+for service in http https kerberos kpasswd ldap ldaps ntp dns; do firewall-cmd --permanent --add-service ${service}; done; firewall-cmd --reload;
+
+Client Install (fedora 20)
+
+• ssh client.example.com (times out)
+• ssh 192.168.122.110 (fails to auth herlo)
+• add herlo to ipa server (pass herloherlo72)
+• ssh-add -L
+∘ select herlo_rsa key and add it to ipa server.
+• ssh -o PubkeyAuthentication=no -o PasswordAuthentication=yes  root@192.168.122.110
+• yum install freeipa-client -y
+• ipa-client-install --enable-dns-updates --mkhomedir
+• service sssd restart
+• ssh client.example.com (should succeed)
+• id
+• pwd
+• hostname
+
+Client SUDO (fedora 20)
+
+• ssh client.example.com (herlo/herloherlo72)
+• sudo -i (will fail)
+∘ password change (herlo/herlorules!)
+• exit
+• add art to ipa server (pass artart72)
+• ssh art@client.example.com
+• sudo -i (will fail)
+∘ password change (art/artdrools!)
+• su -
+• vim /etc/sssd/sssd.conf
+∘ add appropriate lines from sssd.conf in git
+• vim /etc/nsswitch.conf
+∘ add appropriate line from nsswitch.conf in git
+• service sssd restart
+• init 6 (will exit)
+
+• ssh ipa.example.com
+• su -
+• ipa sudorule-add ALL --hostcat='all' --cmdcat='all' --runasusercat='all' --runasgroupcat='all'
+• ipa sudorule-add-user --user herlo ALL
+• exit (twice)
+
+• ssh client.example.com
+• sudo -i (herlorules!)
+• SUCCESS!
+
